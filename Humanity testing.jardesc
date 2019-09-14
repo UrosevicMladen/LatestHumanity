@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="/Users/mladenurosevic/Humanity testing.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/humanity/Humanity testing.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <file path="/humanity/.classpath"/>
+        <file path="/humanity/chromedriver"/>
+        <folder path="/humanity/test-output"/>
+        <javaElement handleIdentifier="=humanity/src\/main\/java"/>
+        <file path="/humanity/testng.xml"/>
+        <file path="/humanity/.DS_Store"/>
+        <folder path="/humanity/target"/>
+        <javaElement handleIdentifier="=humanity/src\/test\/java"/>
+        <file path="/humanity/README.md"/>
+        <file path="/humanity/.project"/>
+        <file path="/humanity/pom.xml"/>
+        <file path="/humanity/geckodriver"/>
+        <file path="/humanity/MyLogFile.log"/>
+        <folder path="/humanity/logs"/>
+        <folder path="/humanity/src"/>
+    </selectedElements>
+</jardesc>

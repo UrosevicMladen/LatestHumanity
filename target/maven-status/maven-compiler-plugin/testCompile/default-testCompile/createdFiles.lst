@@ -1,0 +1,6 @@
+tests/employeeAddTests.class
+tests/loginTests.class
+tests/Login.class
+tests/TestChrome.class
+tests/dashboardTests.class
+tests/TestFirefox.class

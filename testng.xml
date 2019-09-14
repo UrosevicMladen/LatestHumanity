@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Humanity demo suite">
+	<test name="Login Tests" preserve-order="true">
+		<classes>
+			<class name="tests.LoginTests">
+				<methods>
+					<include name="logIn" />
+					<include name="invalidEmail" />
+					<include name="validUpperCaseUserName" />
+					<include name="enterUsernameAndMissingPass" />
+					<include name="enterPassAndMissingUsername" />
+					<include name="missingPassAndUsername" />
+					<include name="usernameAllCaps" />
+					<include name="multipleInvalidEmailUsernameEntries" />
+					<include name="validLogin" />
+					<include name="teardown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Employee Tests" preserve-order="true">
+		<classes>
+			<class name="tests.EmployeeAddTests">
+				<methods>
+					<include name="logIn" />
+					<include name="testAddingEmployee" />
+					<include name="testDeleteEmployee" />
+					<include name="testAddingEmployeeWithInvalidEmail" />
+					<include name="teardown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Time Clock Tests" preserve-order="true">
+		<classes>
+			<class name="tests.TimeClockTests">
+				<methods>
+					<include name="logIn" />
+					<include name="clockEmployeeIn" />
+					<include name="addBreak" />
+					<include name="continueShift" />
+					<include name="clockOut" />
+					<include name="teardown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
+
